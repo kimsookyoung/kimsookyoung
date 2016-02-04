@@ -1,0 +1,826 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title> M Store </title>
+	<meta name="author" content="웹 접근성,웹 표준,품질마트,웹 콘텐츠 접근성 지침"/>
+	<meta name="keywords" content="앨범정보, 앨범소식, 장르별 앨범"/>
+	<meta name="description" content="장르별 앨범 소개 및 가격정보"/>
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/fakeselect.js"></script>
+	<!--[if lt IE 9]>   
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1%28beta4%29/IE9.js"></script>
+	<![endif]-->
+
+ 
+</head>
+<body>
+	
+	
+	<!-- HEADER START  -->
+	<div class="mid headerBG">	
+		<header>
+			<ul id="sns">
+				<li><a href="#" alt="facebook"></a></li>
+				<li><a href="#" alt="dribble"></a></li>
+				<li><a href="#" alt="twitter"></a></li>
+				<li><a href="#" alt="mail"></a></li>
+				<li><a href="#" alt="vimeo"></a></li>
+			</ul>
+			<ul id="join">
+				<li><a href="#" alt="로그인">Login</a> / <a href="#" alt="회원가입">Register</a></li>
+				<li><img src="img/icon/cart.png" height="28" alt="" /><a href="#" alt="장바구니 바로가기"> Cart (2)</a></li>
+			</ul>
+		</header>
+	</div>
+	<!--  HEADER END  -->
+		
+
+	<!-- NAV START -->
+	<nav id="nav1">		
+		<div class="navTop">
+			<h1><a href="index.html" alt="홈으로"><img src="img/icon/logo.png" alt="M Store 로고" /></a></h1>
+			<ul>
+				<li><a href="#" alt="HOME">HOME</a></li>
+				<li><a href="#" alt="CD's">CD's</a></li>
+				<li><a href="#" alt="DVD's">DVD's</a></li>
+				<li><a href="#" alt="NEWS">NEWS</a></li>
+				<li><a href="#" alt="PORTFOLIO">PORTFOLIO</a></li>
+				<li><a href="#" alt="CONTACTUS">CONTACT US</a></li>
+			</ul>	
+		</div>
+		<div class="navBottomBG">
+			<div class="navBottom">
+				<h2>SHOP - FULL WIDTH</h2>
+				<p>Home  &raquo; Shop  &raquo; Full width</p>
+				<a href="#" alt="홈으로"><img src="img/icon/homeHouseIcon.png" alt="" /></a>
+			</div>
+		</div>
+		<div class="blank"></div>
+	</nav>
+	
+	<nav id="nav2">
+		<ul>
+			<li><a href="#" alt="ALL">ALL</a></li>
+			<li><a href="#" alt="ROCK">ROCK</a></li>
+			<li><a href="#" alt="POP">POP</a></li>
+			<li><a href="#" alt="METAL">METAL</a></li>
+			<li><a href="#" alt="DANCE">DANCE</a></li>
+			<li class="nav2Last"><a href="#" alt="CLASSICAL">CLASSICAL</a></li>
+		</ul>
+
+		<form name="" action="" method="" >
+			<fieldset>
+				<legend>Sort by:</legend>
+				<select name="sort" class="top_select" title="분류법 선택">
+					<option value='Alphabetically' selected="selected">Alphabetically</option>
+					<option value='Artist'>Artist</option>
+					<option value='Grade'>Grade</option>
+					<option value='Price'>Price</option>
+				</select>
+			</fieldset>		
+			<img src="img/icon/squares.gif" class="nav2Img1" alt="앨범형식으로 보기" />
+			<img src="img/icon/list.gif" alt="리스트형식으로 보기" />	
+		</form>
+
+			
+	</nav>
+
+	<!-- NAV END -->
+
+
+
+	
+	<!--  MAIN START  -->
+
+	<section>
+
+		<!-- 1 -->
+		<article class="mainBox artBox">
+			<div class="mainBox artImg">
+				<div class="info">
+					<ul>
+						<li>
+							<a href="#" alt="Track 1"><pre>1.  Track Title 1     4:22</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 2"><pre>2.  Track Title 2     3:12</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 3"><pre>3.  Track Title 3     2:56</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 4"><pre>4.  Track Title 4     8:35</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 5"><pre>5.  Track Title 5     2:16</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 6"><pre>6.  Track Title 6     2:37</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 7"><pre>7.  Track Title 7     6:18</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 8"><pre>8.  Track Title 8     5:58</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+					</ul>
+				</div>
+				<div class="sale"><b>SALE</b></div>
+			</div>
+			<ul>
+				<li><h4>Aqualung</h4> <address>by Arist</address></li>
+				<li><i><b>★★★★</b>★</i></li>
+				<li><p><b>Lorem ipsum</b> dolor sit amet, con adipiscing elit, sed diam nonu.</p></li>
+				<li class="pri"><span style="text-decoration:line-through">$14.99</span> <span>$8.99</span></li>
+				<li class="addCart"><input type="image" src="img/icon/addToCart.gif" alt="장바구니 담기"/></li>
+			</ul>
+		</article>
+
+
+		<!-- 2 -->
+		<article class="mainBox artBox">
+			<div class="mainBox artImg">
+				<div class="info">
+					<ul>
+						<li>
+							<a href="#" alt="Track 1"><pre>1.  Track Title 1     4:22</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 2"><pre>2.  Track Title 2     3:12</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 3"><pre>3.  Track Title 3     2:56</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 4"><pre>4.  Track Title 4     8:35</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 5"><pre>5.  Track Title 5     2:16</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 6"><pre>6.  Track Title 6     2:37</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 7"><pre>7.  Track Title 7     6:18</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 8"><pre>8.  Track Title 8     5:58</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul>
+				<li><h4>Awaken the Hero</h4> <address>by Arist</address></li>
+				<li><i><b>★★★★</b>★</i></li>
+				<li><p><b>Lorem ipsum</b> dolor sit amet, con adipiscing elit, sed diam nonu.</p></li>
+				<li class="pri"><span>$17.59</span></li>
+				<li class="addCart"><input type="image" src="img/icon/addToCart.gif" alt="장바구니 담기"/></li>
+			</ul>
+		</article>
+
+
+		<!-- 3 -->
+		<article class="mainBox artBox">
+			<div class="mainBox artImg">
+				<div class="info">
+					<ul>
+						<li>
+							<a href="#" alt="Track 1"><pre>1.  Track Title 1     4:22</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 2"><pre>2.  Track Title 2     3:12</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 3"><pre>3.  Track Title 3     2:56</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 4"><pre>4.  Track Title 4     8:35</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 5"><pre>5.  Track Title 5     2:16</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 6"><pre>6.  Track Title 6     2:37</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 7"><pre>7.  Track Title 7     6:18</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 8"><pre>8.  Track Title 8     5:58</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+					</ul>
+				</div>
+				<div class="sale"><b>SALE</b></div>
+			</div>
+			<ul>
+				<li><h4>Strange to ears</h4> <address>by Arist</address></li>
+				<li><i><b>★★★★</b>★</i></li>
+				<li><p><b>Lorem ipsum</b> dolor sit amet, con adipiscing elit, sed diam nonu.</p></li>
+				<li class="pri"><span style="text-decoration:line-through">$14.99</span> <span>$8.99</span></li>
+				<li class="addCart"><input type="image" src="img/icon/addToCart.gif" alt="장바구니 담기"/></li>
+			</ul>
+		</article>
+
+
+		<!-- 4 -->
+		<article class="mainBox artBox">
+			<div class="mainBox artImg">
+			<div class="info">
+					<ul>
+						<li>
+							<a href="#" alt="Track 1"><pre>1.  Track Title 1     4:22</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 2"><pre>2.  Track Title 2     3:12</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 3"><pre>3.  Track Title 3     2:56</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 4"><pre>4.  Track Title 4     8:35</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 5"><pre>5.  Track Title 5     2:16</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 6"><pre>6.  Track Title 6     2:37</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 7"><pre>7.  Track Title 7     6:18</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 8"><pre>8.  Track Title 8     5:58</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul>
+				<li><h4>Ravenna</h4> <address>by Arist</address></li>
+				<li><i><b>★★★★</b>★</i></li>
+				<li><p><b>Lorem ipsum</b> dolor sit amet, con adipiscing elit, sed diam nonu.</p></li>
+				<li class="pri"><span>$22.99</span></li>
+				<li class="addCart"><input type="image" src="img/icon/addToCart.gif" alt="장바구니 담기"/></li>
+			</ul>
+		</article>
+
+
+		<!-- 5 -->
+		<article class="mainBox artBox">
+			<div class="mainBox artImg">
+				<div class="info">
+					<ul>
+						<li>
+							<a href="#" alt="Track 1"><pre>1.  Track Title 1     4:22</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 2"><pre>2.  Track Title 2     3:12</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 3"><pre>3.  Track Title 3     2:56</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 4"><pre>4.  Track Title 4     8:35</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 5"><pre>5.  Track Title 5     2:16</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 6"><pre>6.  Track Title 6     2:37</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 7"><pre>7.  Track Title 7     6:18</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 8"><pre>8.  Track Title 8     5:58</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+					</ul>
+				</div>
+				<div class="sale"><b>SALE</b></div>
+			</div>
+			<ul>
+				<li><h4>Caribou</h4> <address>by Arist</address></li>
+				<li><i><b>★★★★</b>★</i></li>
+				<li><p><b>Lorem ipsum</b> dolor sit amet, con adipiscing elit, sed diam nonu.</p></li>
+				<li class="pri"><span style="text-decoration:line-through">$14.99</span> <span>$8.99</span></li>
+				<li class="addCart"><input type="image" src="img/icon/addToCart.gif" alt="장바구니 담기"/></li>
+			</ul>
+		</article>
+
+
+		<!-- 6 -->
+		<article class="mainBox artBox">
+			<div class="mainBox artImg">
+				<div class="info">
+					<ul>
+						<li>
+							<a href="#" alt="Track 1"><pre>1.  Track Title 1     4:22</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 2"><pre>2.  Track Title 2     3:12</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 3"><pre>3.  Track Title 3     2:56</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 4"><pre>4.  Track Title 4     8:35</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 5"><pre>5.  Track Title 5     2:16</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 6"><pre>6.  Track Title 6     2:37</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 7"><pre>7.  Track Title 7     6:18</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 8"><pre>8.  Track Title 8     5:58</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul>
+				<li><h4>Oh my Deer</h4> <address>by Arist</address></li>
+				<li><i><b>★★★★</b>★</i></li>
+				<li><p><b>Lorem ipsum</b> dolor sit amet, con adipiscing elit, sed diam nonu.</p></li>
+				<li class="pri"><span>$14.99</span></li>
+				<li class="addCart"><input type="image" src="img/icon/addToCart.gif" alt="장바구니 담기"/></li>
+			</ul>
+		</article>
+
+
+		<!-- 7 -->
+		<article class="mainBox artBox">
+			<div class="mainBox artImg">
+				<div class="info">
+					<ul>
+						<li>
+							<a href="#" alt="Track 1"><pre>1.  Track Title 1     4:22</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 2"><pre>2.  Track Title 2     3:12</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 3"><pre>3.  Track Title 3     2:56</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 4"><pre>4.  Track Title 4     8:35</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 5"><pre>5.  Track Title 5     2:16</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 6"><pre>6.  Track Title 6     2:37</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 7"><pre>7.  Track Title 7     6:18</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 8"><pre>8.  Track Title 8     5:58</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul>
+				<li><h4>Oh my Deer</h4> <address>by Arist</address></li>
+				<li><i><b>★★★★</b>★</i></li>
+				<li><p><b>Lorem ipsum</b> dolor sit amet, con adipiscing elit, sed diam nonu.</p></li>
+				<li class="pri"><span>$8.99</span></li>
+				<li class="addCart"><input type="image" src="img/icon/addToCart.gif" alt="장바구니 담기"/></li>
+			</ul>
+		</article>
+
+
+		<!-- 8 -->
+		<article class="mainBox artBox">
+			<div class="mainBox artImg">
+				<div class="info">
+					<ul>
+						<li>
+							<a href="#" alt="Track 1"><pre>1.  Track Title 1     4:22</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 2"><pre>2.  Track Title 2     3:12</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 3"><pre>3.  Track Title 3     2:56</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 4"><pre>4.  Track Title 4     8:35</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 5"><pre>5.  Track Title 5     2:16</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div>
+							<div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 6"><pre>6.  Track Title 6     2:37</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 7"><pre>7.  Track Title 7     6:18</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div><div></div><div></div>
+						</li>
+						<li>
+							<a href="#" alt="Track 8"><pre>8.  Track Title 8     5:58</pre></a>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div class="gradeOn"></div><div class="gradeOn"></div>
+							<div></div><div></div><div></div><div></div>
+						</li>
+					</ul>
+				</div>
+				<div class="sale"><b>SALE</b></div>
+			</div>
+			<ul>
+				<li><h4>Ravenna</h4> <address>by Arist</address></li>
+				<li><i><b>★★★★</b>★</i></li>
+				<li><p><b>Lorem ipsum</b> dolor sit amet, con adipiscing elit, sed diam nonu.</p></li>
+				<li class="pri"><span style="text-decoration:line-through">$14.99</span> <span>$8.99</span></li>
+				<li class="addCart"><input type="image" src="img/icon/addToCart.gif" alt="장바구니 담기"/></li>
+			</ul>
+		</article>
+
+
+		<!-- page -->
+		<div id="page">
+			<ul>
+				<li><a><strong>1</strong></a></li>
+				<li><a>2</a></li>
+				<li><a>3</a></li>
+				<li><a>4</a></li>
+				<li><a>5</a></li>
+				<li><a>6</a></li>
+				<li><a>&raquo;</a></li>
+			</ul>
+		</div>
+
+	</section>
+
+	<!--  MAIN END  -->
+
+
+
+
+	<!-- FOOTER START -->
+	<div class="mid footerBG">
+		
+		<!-- ASIDE START -->
+		<aside>
+			<a href="#" alt="상단으로"><img src="img/icon/fixIcon.gif" alt="" /></a>
+		</aside>
+
+
+		<footer id="navFoot">		
+
+			<!-- 1 -->
+			<ul>
+				<li><h5>Little about us</h5></li>
+				<li>
+					<p><b>Sed posuere</b> consectetur  est at.</p>
+					<p>Nulla vitae elit libero, a pharetra.</p>
+					<p>Lorem ipsum <b>dolor sit</b> amet, conse</p>
+					<p>ctetuer adipiscing elit.</p>
+				</li>
+				<li><h5>Socialize with us</h5></li>
+				<li>
+					<ul>
+						<li><a href="#" alt="facebook"></a></li>
+						<li><a href="#" alt="twitter"></a></li>
+						<li><a href="#" alt="dribble"></a></li>
+						<li><a href="#" alt="digg"></a></li>
+						<li><a href="#" alt="mail"></a></li>					
+					</ul>
+				</li>
+			</ul>
+
+
+			<!-- 2 -->
+			<ul>
+				<li><h5>Our Archives</h5></li>
+				<li><a href="#" alt="2012년 3월"><p>March 2012<p></a></li>
+				<li><a href="#" alt="2012년 2월"><p>February 2012<p></a></li>
+				<li><a href="#" alt="2012년 1월"><p>January 2012<p></a></li>
+				<li><a href="#" alt="2011년 12월"><p>December 2011<p></a></li>
+			</ul>
+
+
+			<!-- 3 -->
+			<ul>
+				<li><h5>Popular Posts</h5></li>
+				<li>
+					<div></div>
+					<a href="#" alt="Great Album" ><p>Great Album</p></a>
+					<a href="#" alt="Great Album comment"><img src="img/icon/comment.gif" alt=""/>12 COMMENTS</a>
+				</li>
+				<li>
+					<div></div>
+					<a href="#" alt="Great Album" ><p>Great Album</p></a>
+					<a href="#" alt="Great Album comment"><img src="img/icon/comment.gif" alt=""/>12 COMMENTS</a>
+				</li>
+			</ul>
+
+
+			<!-- 4 -->
+			<ul>
+				<li><h5>Search our Site</h5></li>
+				<li>
+					<form action="">
+						<fieldset>
+							<label for="search"></label>
+							<input type="text" id="search" placeholder="Enter Search ..." />
+						</fieldset>
+					</form>
+				</li>
+				<li><h5>Tag Cloud</h5></li>
+				<li>
+					<ul>
+						<li><a href="#" alt="audio CD">Audio CD</a></li>
+						<li><a href="#" alt="Video">Video</a></li>
+						<li><a href="#" alt="Playlist">Playlist</a></li>
+						<li><a href="#" alt="Avantgarde">Avantgarde</a></li>
+						<li><a href="#" alt="Melancholic">Melancholic</a></li>
+					</ul>
+				</li>
+			</ul>		
+		</footer>
+
+		<footer id="infoFoot">
+			<div>
+				<ul>
+					<li><a href="#" alt="Home">Home</a></li>
+					<li><a href="#" alt="Portfoliio">Portfoliio</a></li>
+					<li><a href="#" alt="Sitemap">Sitemap</a></li>
+					<li><a href="#" alt="Contact">Contact</a></li>
+					<li><address>Musica @2013 by PremiumCoding | All Rights Reserved</address></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+			
+	
+	<!-- FOOTER END -->
+
+
+</body>
+</html>
